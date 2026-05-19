@@ -1,0 +1,30 @@
+  * {
+      font-family: CaskaydiaCove Nerd Font Mono;
+      font-size: 13px;
+  }
+
+  window#waybar {
+      background-color: #282a36;
+      color: #f8f8f2;
+  }
+
+  #workspaces button {
+      color: #6272a4;
+      padding: 0 8px;
+  }
+
+  #workspaces button.active {
+      color: #bd93f9;
+      border-bottom: 2px solid #bd93f9;
+  }
+
+  #clock, #cpu, #memory, #network, #pulseaudio, #tray {
+      padding: 0 12px;
+      color: #f8f8f2;
+  }
+
+  #clock { color: #50fa7b; }
+  #cpu { color: #ff79c6; }
+  #memory { color: #8be9fd; }
+  #network { color: #f1fa8c; }
+  #pulseaudio { color: #bd93f9; }
