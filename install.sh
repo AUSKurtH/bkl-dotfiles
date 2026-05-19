@@ -11,6 +11,7 @@ mkdir -p ~/.config/waybar/
 mkdir -p ~/.config/nvim/lua/config/
 mkdir -p ~/.config/nvim/lua/plugins/
 mkdir -p ~/.config/btop/
+mkdir -p /etc/systemd/system/getty@tty1.service.d/
 
 echo "Creating symlinks..."
 ln -sf ~/dotfiles/kitty/kitty.conf ~/.config/kitty/kitty.conf
@@ -23,3 +24,5 @@ ln -sf ~/dotfiles/waybar/config ~/.config/waybar/config
 ln -sf ~/dotfiles/waybar/style.css ~/.config/waybar/style.css
 ln -sf ~/dotfiles/starship.toml ~/.config/starship.toml
 ln -sf ~/dotfiles/btop/ ~/.config/btop/
+ln -sf ~/dotfiles/.zprofile ~/.zprofile
+sudo cp ~/dotfiles/override.conf /etc/systemd/system/getty@tty1.service.d/override.conf
