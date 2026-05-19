@@ -26,3 +26,4 @@ ln -sf ~/dotfiles/starship.toml ~/.config/starship.toml
 ln -sf ~/dotfiles/btop/ ~/.config/btop/
 ln -sf ~/dotfiles/.zprofile ~/.zprofile
 sudo cp ~/dotfiles/override.conf /etc/systemd/system/getty@tty1.service.d/override.conf
+cp /etc/systemd/system/getty@tty1.service.d/override.conf ~/dotfiles/override.conf
