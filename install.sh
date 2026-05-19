@@ -8,6 +8,9 @@ mkdir -p ~/.config/kitty/
 mkdir -p ~/.config/hypr/
 mkdir -p ~/.config/nvim/lua/
 mkdir -p ~/.config/waybar/
+mkdir -p ~/.config/nvim/lua/config/
+mkdir -p ~/.config/nvim/lua/plugins/
+mkdir -p ~/.config/btop/
 
 echo "Creating symlinks..."
 ln -sf ~/dotfiles/kitty/kitty.conf ~/.config/kitty/kitty.conf
